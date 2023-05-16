@@ -1,4 +1,7 @@
 {
+  "mounts": [
+    "source=C:\\Users\\mpolk\\dev\\homeassistant\\frontend,target=/workspaces/frontend,type=bind,consistency=cached"
+  ],
   "name": "Home Assistant Dev",
   "context": "..",
   "dockerFile": "../Dockerfile.dev",

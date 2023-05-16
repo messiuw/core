@@ -94,6 +94,7 @@ default_config:
 
 # Load frontend themes from the themes folder
 frontend:
+  development_repo: /workspaces/frontend/
   themes: !include_dir_merge_named themes
 
 # Text to speech
